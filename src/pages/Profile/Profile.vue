@@ -62,13 +62,13 @@
               </span>
             </div>
           </a>
-          <!-- 硅谷外卖会员卡 -->
+          <!-- 小鹏外卖会员卡 -->
           <a href="javascript:" class="my_order">
             <span>
               <i class="iconfont icon-vip"></i>
             </span>
             <div class="my_order_div">
-              <span>硅谷外卖会员卡</span>
+              <span>小鹏外卖会员卡</span>
               <span class="my_order_icon">
                 <i class="iconfont icon-jiantou1"></i>
               </span>
@@ -203,6 +203,7 @@ export default {
                   .icon-mobile-number
                     font-size 14px
                     color #fff
+                    padding-left 5px
               .arrow
                 width 12px
                 height 12px

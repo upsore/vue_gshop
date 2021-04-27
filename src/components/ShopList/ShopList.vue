@@ -5,7 +5,9 @@
               <li class="shop_li border-1px" v-for="(shop,index) in shops" :key="index" @click="$router.push('/shop')">
                 <a>
                   <div class="shop_left">
-                    <img class="shop_img" src="./images/shop/1.jpg">
+                    
+                    <img class="shop_img" :src="baseImgUrl + shop.image_path">
+                    
                   </div>
                   <div class="shop_right">
                     <section class="shop_detail_header">
@@ -26,7 +28,7 @@
                         </div>
                       </section>
                       <section class="shop_rating_order_right">
-                        <span class="delivery_style delivery_right">硅谷专送</span>
+                        <span class="delivery_style delivery_right">小鹏专送</span>
                       </section>
                     </section>
                     <section class="shop_distance">
@@ -58,7 +60,8 @@ import Star from '../Star/Star'
 export default {
   data(){
     return{
-          baseImgUrl:'http://owoccema2.bkt.clouddn.com/show/MintShop/'
+          baseImgUrl:'http://cangdu.org:8001/img/'
+          
           
     }
   },
@@ -177,5 +180,6 @@ export default {
                           color #666
                         .segmentation
                           color #ccc
+                          padding 5px
 
 </style>

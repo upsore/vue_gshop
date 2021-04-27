@@ -290,6 +290,7 @@
             line-height: 18px
             color: rgb(7, 17, 27)
             font-size: 12px
+            
           .recommend
             line-height: 16px
             font-size: 0

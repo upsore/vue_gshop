@@ -19,7 +19,7 @@
              <div class="shop-message">
                 <span class="shop-message-detail">{{info.score}}</span> 
                 <span class="shop-message-detail">月售 {{info.sellCount}} 单</span> 
-                <span class="shop-message-detail"> {{info.description}} <span>约 {{info.deliveryTime}} 分钟</span> 
+                <span class="shop-message-detail">  <span>约 {{info.deliveryTime}} 分钟</span> 
                 </span> <span class="shop-message-detail">距离  {{info.distance}}</span> 
                 </div> 
                 </div> 
@@ -44,18 +44,18 @@
                            </span> <span class="content-name">嘉禾一品（温都水城）</span>
                             </h2> <ul class="brief-modal-msg"> 
                               <li>
-                      <h3>3.5</h3>
+                      <h3>{{info.score}}</h3>
                        <p>评分</p>
                    </li>
                     <li>
-              <h3>90 单</h3>
+              <h3>{{info.sellCount}} 单</h3>
                 <p>月售</p>
                 </li>
                   <li>
-                    <h3>硅谷专送</h3> 
-                    <p>约 28 分钟</p> 
+                    <h3>小鹏专送</h3> 
+                    <p>约 {{info.deliveryTime}} 分钟</p> 
                     </li> <li>
-                      <h3>4 元</h3>
+                      <h3>{{info.deliveryPrice}} 元</h3>
                       <p>配送费用</p> 
                       </li> <li>
                         <h3>1000m</h3> 

@@ -78,7 +78,6 @@
     },
     computed: {
       ...mapState(['goods']),
-
       // 计算得到当前分类的下标
       currentIndex() {// 初始和相关数据发生了变化
         // 得到条件数据
@@ -139,7 +138,6 @@
       clickMenuItem(index) {
         // console.log(index)
         // 使用右侧列表滑动到对应的位置
-
         // 得到目标位置的scrollY
         const scrollY = this.tops[index]
         // 立即更新scrollY(让点击的分类项成为当前分类)
